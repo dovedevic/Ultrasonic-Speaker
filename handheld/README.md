@@ -1,18 +1,18 @@
 # Handheld Build
 
-Before I made the handheld device, I made sure the breadboard version worked before I transfered everything. This got me in the ballpark for the capacitance and resistance values I needed for the frequency and duty cycle. Using an oscilliscope was mighty useful. I trimmed my circuit to 40kHz.
+Before I made the handheld device, I made sure the breadboard version worked before I transferred everything. This got me in the ballpark for the capacitance and resistance values I needed for the frequency and duty cycle. Using an oscilloscope was mighty useful. I trimmed my circuit to 40kHz.
 
 <p align="center"><img src="../img/build-01.jpg" width="500"></p>
 
-After making the breadboard design and ensuring it worked, I moved the design onto a skiny PCB. I included a power barrel jack and internal 18v (2x9v batteries) power source, switched by a three-position toggle switch. I exposed certain posts / wires so I could easily troubleshoot and refine the oscillator with my oscilliscope.
+After making the breadboard design and ensuring it worked, I moved the design onto a skinny PCB. I included a power barrel jack and internal 18v (2x9v batteries) power source, switched by a three-position toggle switch. I exposed certain posts / wires so I could easily troubleshoot and refine the oscillator with my oscilloscope.
 
 <p align="center"><img src="../img/build-02.jpg" width="500"></p>
 
-I then built a triangular parallel transducer array by hot gluing them together and soldering copper wire to each one. The ends were terminated with female headers so that I can connect it to the board I made earlier. I wanted to make a hexagon / circle, but did not have enough transmitting transducers (although I think I could've gotten away with using recieving transducers). I think the distance between transducers is important, but I don't have any evidence / tests. I glued them as close together as possible.
+I then built a triangular parallel transducer array by hot gluing them together and soldering copper wire to each one. The ends were terminated with female headers so that I can connect it to the board I made earlier. I wanted to make a hexagon / circle, but did not have enough transmitting transducers (although I think I could've gotten away with using receiving transducers). I think the distance between transducers is important, but I don't have any evidence / tests. I glued them as close together as possible.
 
 <p align="center"><img src="../img/build-03.jpg" width="500"></p>
 
-Using my 3D printer (Crealty Ender 3 Max Neo), I printed an eclosure (head.stl) for the transducer array.
+Using my 3D printer (Crealty Ender 3 Max Neo), I printed an enclosure (head.stl) for the transducer array.
 
 <p align="center"><img src="../img/build-04.jpg" width="500"></p>
 
